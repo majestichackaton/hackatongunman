@@ -4,34 +4,25 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
     <title>WILD GUNMAN</title>
-    <link href="{$app_url}assets/css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="{$app_url}assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="{$app_url}/assets/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="{$app_url}/assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-  <div id='fb-root'></div>
     <!-- [ END OF TEMPLATE ] -->
     
     <div id="wrapper" class="backgroundWithGunner">
       <div id="wgLogo"></div>
       
-      <div class="clickable" id="playNowButton" style='display: none' data-href="play" href='play'></div>
-      <div class="clickable" id="inviteFriendsButton" style='display: none' data-href="invite"></div>
-      <div class="clickable" id="leaderboardsButton" style='display: none' data-href="high_scores"></div>
-      <div class="clickable" id="howToPlayButton" style='display: none' data-href="instructions"></div>
-      
-      
-      <div class="clickable" id="facebookConnect" style='display: none'></div>
-      
-      <div id="footer" style='display: none'>
-        <div class="name">JOHN RAMBO</div>
-        <div class="points">000</div>
-        <div class="rank">000</div>
+      <div id="leaderboardBox">
+        <span id='marquee'>Searching for players....</span>
+        
       </div>
+      
+      
     </div>
     
     <!-- [ BEGIN OF TEMPLATE ] -->
-
-    <script type='text/javascript' src='{$app_url}js/qloader/qloader.js'></script>
+    <script type='text/javascript' src='{$app_url}/js/qloader/qloader.js'></script>
     <script type='text/javascript'>
      srcs = [
        'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js',
@@ -60,3 +51,9 @@
     
   </body>
 </html>
+
+
+
+
+
+

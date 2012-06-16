@@ -11,23 +11,16 @@
   <div id='fb-root'></div>
     <!-- [ END OF TEMPLATE ] -->
     
-    <div id="wrapper" class="backgroundWithGunner">
+  <div id="wrapper" class="backgroundWithGunner">
       <div id="wgLogo"></div>
       
-      <div class="clickable" id="playNowButton" style='display: none' data-href="play" href='play'></div>
-      <div class="clickable" id="inviteFriendsButton" style='display: none' data-href="invite"></div>
-      <div class="clickable" id="leaderboardsButton" style='display: none' data-href="high_scores"></div>
-      <div class="clickable" id="howToPlayButton" style='display: none' data-href="instructions"></div>
-      
-      
-      <div class="clickable" id="facebookConnect" style='display: none'></div>
-      
-      <div id="footer" style='display: none'>
-        <div class="name">JOHN RAMBO</div>
-        <div class="points">000</div>
-        <div class="rank">000</div>
+      <div id="howToPlayFrame" style='background-color: #FFF; color: #000'>
+       
+          <span id='searching'>Searching for players...</span>
+       
+        <div class="gun"></div>
+        <div class="clickable playNow" data-href="#"></div>
       </div>
-    </div>
     
     <!-- [ BEGIN OF TEMPLATE ] -->
 
@@ -52,7 +45,7 @@
 			   App.Config.setAppId('{$app_config->app_id}');
 			   App.Config.setAppUrl('{$app_url}');
 			   
-			   App.Pages.Welcome.boot();
+			   App.Pages.Play.boot();
 	   });
 	   QLoader.load();
      </script>

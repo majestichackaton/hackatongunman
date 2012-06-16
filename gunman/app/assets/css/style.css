@@ -1,0 +1,305 @@
+@font-face {
+  font-family: PerfectDOS;
+  src: url(Perfect_DOS_VGA_437_Win.eot);
+  src: url(Perfect_DOS_VGA_437_Win.ttf) format('truetype');
+}
+
+body {
+  background: url(../img/bodyBackground.jpg) repeat-x center center #fff;
+  overflow: hidden;
+  font-family: "PerfectDOS", "Perfect_DOS_VGA_437_Win", sans-serif;
+  color: #fff;
+}
+
+#wrapper {
+  background: url(../img/desertBackground.png) no-repeat center center;
+  width: 320px;
+  height: 480px;
+  border: 1px solid rgba(0, 0, 0, .5);
+}
+
+.backgroundWithGunner {
+  background-image: url(../img/gunmanBackground.jpg) !important;
+}
+
+#wgLogo {
+  position: absolute;
+  top: 26px;
+  left: 17px;
+  width: 286px;
+  height: 63px;
+  background: url(../img/logo.png) no-repeat left top;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#footer {
+  position: absolute;
+  width: 320px;
+  height: 73px;
+  top: 407px;
+  background: url(../img/footer.png) no-repeat left top;
+}
+
+#footer .name {
+  position: absolute;
+  top: 41px;
+  left: 11px;
+  width: 131px;
+  height: 32px;
+}
+
+#footer .points {
+  position: absolute;
+  top: 41px;
+  left: 158px;
+  width: 88px;
+  height: 32px;
+}
+
+#footer .rank {
+  position: absolute;
+  top: 41px;
+  left: 256px;
+  width: 63px;
+  height: 32px;
+}
+
+/* ---------------- */
+
+#playNowButton {
+  position: absolute;
+  top: 105px;
+  left: 60px;
+  width: 199px;
+  height: 43px;
+  background: url(../img/menu/play_now.png) no-repeat left top;
+}
+
+
+#inviteFriendsButton {
+  position: absolute;
+  top: 155px;
+  left: 60px;
+  width: 199px;
+  height: 43px;
+  background: url(../img/menu/invite_friend.png) no-repeat left top;
+}
+
+#leaderboardsButton {
+  position: absolute;
+  top: 205px;
+  left: 60px;
+  width: 199px;
+  height: 43px;
+  background: url(../img/menu/leaderboards.png) no-repeat left top;
+}
+
+#howToPlayButton {
+  position: absolute;
+  top: 255px;
+  left: 60px;
+  width: 199px;
+  height: 43px;
+  background: url(../img/menu/how_play.png) no-repeat left top;
+}
+
+#facebookConnect {
+  position: absolute;
+  top: 420px;
+  left: 54px;
+  width: 212px;
+  height: 32px;
+  background: url(../img/menu/connect.png) no-repeat left top;
+}
+
+/* HOW TO PLAY */
+
+#howToPlayFrame {
+  position: absolute;
+  top: 106px;
+  left: 21px;
+  width: 277px;
+  height: 270px;
+  background: url(../img/howToPlay/how_play.png) no-repeat left top;
+}
+
+#howToPlayFrame .timeYou {
+  position: absolute;
+  top: 50px;
+  left: 38px;
+  width: 200px;
+  height: 37px;
+  background: url(../img/howToPlay/you_time.jpg) no-repeat left top;
+}
+
+#howToPlayFrame .timeYou .time {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 84px;
+  height: 24px;
+  color: #c61633;
+  font-size: 23px;
+}
+
+#howToPlayFrame .gun {
+  position: absolute;
+  top: 96px;
+  left: 99px;
+  width: 78px;
+  height: 105px;
+  background: url(../img/howToPlay/gun.jpg) no-repeat left top;
+}
+
+#howToPlayFrame .playNow {
+  position: absolute;
+  top: 212px;
+  left: 61px;
+  width: 155px;
+  height: 41px;
+  background: url(../img/howToPlay/play_now.png) no-repeat left top;
+}
+
+/* Leaderboards */
+
+#leaderboardBox {
+  position: absolute;
+  top: 98px;
+  left: 21px;
+  width: 277px;
+  height: 294px;
+  background: url(../img/box.png) no-repeat left top;
+  color: #343434;
+}
+
+#leaderboardBox .title {
+  position: absolute;
+  top: 13px;
+  left: 39px;
+  width: 199px;
+  height: 21px;
+  background: url(../img/leaderboards/title.png) no-repeat left top;
+}
+
+#leaderboardBox  .global {
+  position: absolute;
+  top: 43px;
+  left: 109px;
+  width: 96px;
+  height: 28px;
+  background: url(../img/leaderboards/global_hover.png) no-repeat 0 0;
+}
+
+#leaderboardBox  .friends {
+  position: absolute;
+  top: 43px;
+  left: 10px;
+  width: 96px;
+  height: 28px;
+  background: url(../img/leaderboards/friends.png) no-repeat 0 0;
+}
+
+#leaderboardBox .activeButton {
+  background-position: 0 -29px;
+}
+
+#leaderboardBox .playNow {
+  position: absolute;
+  top: 238px;
+  left: 61px;
+  width: 155px;
+  height: 41px;
+  background: url(../img/howToPlay/play_now.png) no-repeat left top;
+}
+
+#leaderboardBox  .headerLine  {
+  position: absolute;
+  border-top: 1px solid #000;
+  width: 253px;
+  height: 1px;
+  top: 99px;
+  left: 10px;
+}
+
+#leaderboardBox  .lb {
+  position: absolute;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 253px;
+  height: 152px;
+  top: 83px;
+  left: 12px;
+}
+
+#leaderboardBox  .lb tr {
+  height: 11px;
+}
+
+#leaderboardBox  .lb tr td {
+  text-align: center;
+  height: 22px;
+}
+
+#leaderboardBox  .lb tr td.noCenter {
+  text-align: left;
+}
+
+#leaderboardBox  .lb tr.header {
+  color: #858585;
+}
+
+#leaderboardBox  .lb tr .first {
+  width: 136px;
+}
+
+#leaderboardBox  .lb tr .second {
+  width: 60px;
+}
+
+/*  */
+
+
+#inviteBox {
+  position: absolute;
+  top: 98px;
+  left: 21px;
+  width: 277px;
+  height: 294px;
+  background: url(../img/box.png) no-repeat left top;
+  color: #343434;
+}
+
+#inviteBox .title {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  width: 228px;
+  height: 19px;
+  background: url(../img/inviteFriends/title.png) no-repeat left top;
+}
+
+#inviteBox .sendDuel {
+  position: absolute;
+  top: 234px;
+  left: 56px;
+  width: 165px;
+  height: 41px;
+  background: url(../img/inviteFriends/send_duel.png) no-repeat left top;
+}
+
+#inviteBox .list {
+  position: absolute;
+  top: 56px;
+  left: 23px;
+  width: 231px;
+  height: 160px;
+  overflow: auto;
+}
+
+#inviteBox .list .friend {
+  
+}

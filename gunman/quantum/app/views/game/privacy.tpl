@@ -1,0 +1,1 @@
+<p>We wil only use your personal info to bring in your friends so you can shoot them and kick their ass. We don't use your info for any other purpose. In fact, we'll probably delete it in a few days</p>

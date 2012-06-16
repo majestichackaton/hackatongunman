@@ -1,0 +1,28 @@
+
+
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+SetEnv TZ America/Chicago
+Options +FollowSymlinks
+RewriteEngine on
+
+
+ 
+RewriteBase /webservices/api
+ 
+
+
+RewriteRule ^$                        index.php  [L]
+RewriteCond %{REQUEST_FILENAME}       !-f
+RewriteCond %{REQUEST_FILENAME}       !-d
+
+
+
+
+RewriteRule ^([^/]+)/?([^/]*)/?/?([^/]*)/?([^/]*)/?([^/]*)/?([^/]*)$ index.php?controller=$1&task=$2&object_id=$3 [QSA,L]
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml
+DirectoryIndex index.php

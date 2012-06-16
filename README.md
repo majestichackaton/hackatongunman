@@ -1,4 +1,3 @@
-hackatongunman
-==============
+Majestic Media Ltd. presents
 
-Majestic Media Ltd.
+WILD GUNMAN
